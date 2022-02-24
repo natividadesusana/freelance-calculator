@@ -3,4 +3,4 @@
 </>
   
 # ReprogramaWorkshop-Backend
-🚀 Projeto em progresso, Workshop de Backend / {reprograma} ~
+🚀 Projeto em progresso, Workshop {reprograma} ~
