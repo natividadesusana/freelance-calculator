@@ -33,6 +33,20 @@ button {
   margin: 1.5rem 0 0 0;
 }
 
+#button-voltar {
+  background-color: #e6d1d1;
+  border: none;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 20%;
+  height: 40px;
+  border-radius: 5px;
+  margin: 1.5rem 0 0 0;
+}
+
 /* BARRA NAVEGACAO */
 .barra-navegacao {
   z-index: 1;
@@ -60,7 +74,6 @@ button {
 @media (min-width: 768px) {
   .conteudo-principal {
     margin: 6rem auto 6rem auto;
-  }
 }
 @media (min-width: 992px) {
   .conteudo-principal {
@@ -82,7 +95,7 @@ button {
   padding: 2rem 1rem;
   margin-top: 80px;
   margin-bottom: 80px;
-  background: url("../img/code.png") no-repeat center right;
+  background: url("../img/code.png") no-repeat center right 20px;
   background-attachment: scroll;
   background-size: auto;
   background-size: contain;
@@ -96,7 +109,7 @@ button {
 
 @media (min-width: 320px) {
   .cabecalho {
-    margin-top: 7rem;
+    margin-top: 6rem;
   }
   .cabecalho__titulo {
     margin: 0 10rem 0 0;
@@ -153,7 +166,7 @@ button {
   margin: 1.5rem 0 0 0;
 }
 .secao__formulario legend {
-  font-weight: ;
+  font-weight: lighter;
   padding: 0;
   margin: 0 0 0.5rem 0;
   color: white
@@ -194,7 +207,7 @@ button {
 .secao__rodape {
   text-align: center;
   padding: 3rem 1rem;
-  background-color: #f6f6f6;
+  background-color: #e6d1d1;
   margin-bottom: 10px;
 }
 .secao__rodape__valor span {
@@ -204,7 +217,7 @@ button {
 }
 .secao__rodape__valor small {
   font-size: 2rem;
-  color: #dddadd;
+  color: #b29cb9;;
 }
 .secao__rodape__legenda {
   font-size: 1.2rem;
@@ -250,4 +263,5 @@ button {
   position: fixed;
   bottom: 0;
   width: 100%;
+  }
 }
